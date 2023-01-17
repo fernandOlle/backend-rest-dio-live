@@ -11,7 +11,7 @@ import java.util.List;
 @RequestMapping("/banco")
 public class BancoController {
     @Autowired
-    private BancoService bancoService;
+    private BancoService bancoService
 
     @PostMapping("/create")
     public BancoDeHoras saveBancoDeHoras(@RequestBody BancoDeHoras bancoDeHoras) {
